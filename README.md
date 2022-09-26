@@ -1,1 +1,1 @@
-# first-react with tailwindcss
+# first-react project with tailwind css
