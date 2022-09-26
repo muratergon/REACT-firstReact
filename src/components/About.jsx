@@ -7,22 +7,21 @@ const About = () => {
       <div className="text-center my-10">
         <p className="text-6xl font-thin">About</p>
         <p className="mt-4">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus cum
-          deserunt ipsa eum tenetur! Labore incidunt beatae quos autem quod
-          similique obcaecati dolore odit cupiditate! Ad perferendis beatae
-          consequatur nostrum?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. minima
+          veniam. Itaque quam veniam, aspernatur sed cupiditate, vitae est sint
+          nesciunt unde minima facere ad voluptatem. Sunt, nesciunt dolores.
         </p>
       </div>
-      {/*  */}
-      <div className="flex flex-col-reverse sm:flex row mx-10 justify-center">
+      {/* sasa*/}
+      <div className="flex flex-col-reverse sm:flex-row mx-10 justify-center">
         <div className="mt-4 sm:mt-0 mx-4">
           {[
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus cum",
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus cum",
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus cum",
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus cum",
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus cum",
-            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus cum",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
           ].map((item, idx) => (
             <p key={idx} className="p-2">
               {item}
@@ -30,7 +29,11 @@ const About = () => {
           ))}
         </div>
         <div>
-          <img src={AboutUs} alt="ads" className="rounded-2xl sm:h-[20rem]" />
+          <img
+            src={AboutUs}
+            alt="asdglasd"
+            className="rounded-2xl sm:h-[20rem]"
+          />
         </div>
       </div>
     </div>
